@@ -1,0 +1,4 @@
+breakpoint set --name bmi::Classroom::add
+breakpoint set --name bmi::classify --condition 'value >= 24'
+breakpoint set --exception c++ --on-throw true
+breakpoint list
